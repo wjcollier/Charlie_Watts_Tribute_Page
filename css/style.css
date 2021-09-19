@@ -1,0 +1,78 @@
+#title {
+ color: burlywood;
+ font-family: 'Exo';
+ background-color: black;
+ font-size: 60px;
+ text-align: center;
+ margin-bottom: 1px;
+}
+
+body {
+ background-color: burlywood;
+}
+
+#img-caption {
+color: burlywood;
+font-family: 'Exo'  ;
+text-align: center;
+font-size: 50px;
+background-color: rgb(10, 7, 2);
+margin-top: 10px;
+margin-bottom: 10px;
+}
+
+#tribute-link {
+ color:rgb(76, 7, 105);
+ background-color:rgb(218, 157, 78);
+ padding: 10px 10px 10px 10px;
+ font-family:'Exo';
+ font-size: 20px;
+ font-weight:bolder;
+ display: flex ;
+ justify-content: center;
+ padding: 0 10px;
+}
+
+.row {
+
+  display: flex ;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+
+.column {
+  flex: 25%;
+  max-width: 100%;
+  padding: 0 4px;
+  justify-content: center;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+#tribute-info {
+  font-family: 'Exo';
+  font-weight: bold;
+  font-size: 18px;
+  color: indigo;
+}
+
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
